@@ -25,7 +25,8 @@ input_sample_rate = 200
 
 ''' END CONFIG '''
 
-input_headers = ['id','chan1','chan2','chan3','chan4','chan5','chan6','chan7','chan8','accel1','accel2','accel3']
+# input_headers = ['id','chan1','chan2','chan3','chan4','chan5','chan6','chan7','chan8','accel1','accel2','accel3']
+input_headers = ['id','chan1','chan2','chan3','chan4','accel1','accel2','accel3','ganglionTime','serialno']
 output_headers = ['Time','chan1','chan2','chan3','chan4','chan5','chan6','chan7','chan8','Sample_rate']
 
 files = os.listdir(input_path)
@@ -69,7 +70,7 @@ for input_fn in csv_files:
 
           row_count = row_count + 1
 
-          if(row_count > 2):
+          if(row_count > 3):
 
             output = {}
 
@@ -77,9 +78,13 @@ for input_fn in csv_files:
 
             output['Time'] = time_counter
 
-            for i in range(1,9):
+            for i in range(1,5):
               channel_key = 'chan'+str(i)
               output[channel_key] = row[channel_key]
+            
+            for i in range(5,9):
+              channel_key = 'chan'+str(i)
+              output[channel_key] = '0.000'
 
             output['Sample_rate'] = input_sample_rate
 
