@@ -25,9 +25,9 @@ input_sample_rate = 200
 
 ''' END CONFIG '''
 
-# input_headers = ['id','chan1','chan2','chan3','chan4','chan5','chan6','chan7','chan8','accel1','accel2','accel3']
 input_headers = ['id','chan1','chan2','chan3','chan4','accel1','accel2','accel3','ganglionTime','serialno']
-output_headers = ['Time','chan1','chan2','chan3','chan4','chan5','chan6','chan7','chan8','Sample_rate']
+
+channel_keys = {'chan1':'FP1','chan2':'FP2','chan3':'O1','chan4':'O2'}
 
 files = os.listdir(input_path)
 
@@ -62,9 +62,11 @@ for input_fn in csv_files:
             break
 
      input_sample_rate = sr_line[15:21]
+     output_headers = ['Time:%sHz'%input_sample_rate,'Epoch','FP1','FP2','O1','O2','Event Id','Event Date','Event Duration']
 
      csv_input = csv.DictReader(csvfile, fieldnames=input_headers, dialect='excel')
      row_count = 0
+     epoch_count = 0
 
      for row in csv_input:
 
@@ -74,19 +76,15 @@ for input_fn in csv_files:
 
             output = {}
 
+            output['Time:%sHz'%input_sample_rate] = time_counter
             time_counter = time_counter + time_increment
 
-            output['Time'] = time_counter
+            epoch_count = (row_count-4) / 4
+            output['Epoch'] = epoch_count
 
             for i in range(1,5):
               channel_key = 'chan'+str(i)
-              output[channel_key] = row[channel_key]
-            
-            for i in range(5,9):
-              channel_key = 'chan'+str(i)
-              output[channel_key] = '0.000'
-
-            output['Sample_rate'] = input_sample_rate
+              output[channel_keys[channel_key]] = row[channel_key]
 
             output_data.append(output)
 
