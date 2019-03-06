@@ -1,0 +1,32 @@
+01:40:57: Creating resource group General
+01:40:57: Creating resource group Internal
+01:40:57: Creating resource group Autodetect
+01:40:57: SceneManagerFactory for type 'DefaultSceneManager' registered.
+01:40:57: Registering ResourceManager for type Material
+01:40:57: Registering ResourceManager for type Mesh
+01:40:57: Registering ResourceManager for type Skeleton
+01:40:57: MovableObjectFactory for type 'ParticleSystem' registered.
+01:40:57: ArchiveFactory for archive type FileSystem registered.
+01:40:57: ArchiveFactory for archive type Zip registered.
+01:40:57: ArchiveFactory for archive type EmbeddedZip registered.
+01:40:57: DDS codec registering
+01:40:57: FreeImage version: 3.15.3
+01:40:57: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+01:40:57: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic
+01:40:57: Registering ResourceManager for type HighLevelGpuProgram
+01:40:57: Registering ResourceManager for type Compositor
+01:40:57: MovableObjectFactory for type 'Entity' registered.
+01:40:57: MovableObjectFactory for type 'Light' registered.
+01:40:57: MovableObjectFactory for type 'BillboardSet' registered.
+01:40:57: MovableObjectFactory for type 'ManualObject' registered.
+01:40:57: MovableObjectFactory for type 'BillboardChain' registered.
+01:40:57: MovableObjectFactory for type 'RibbonTrail' registered.
+01:40:57: Loading library .\RenderSystem_Direct3D9
+01:40:57: Installing plugin: D3D9 RenderSystem
+01:40:57: D3D9 : Direct3D9 Rendering Subsystem created.
+01:40:57: D3D9: Driver Detection Starts
+01:40:57: D3D9: Driver Detection Ends
+01:40:57: Plugin successfully installed
+01:40:57: Loading library .\RenderSystem_Direct3D11
+01:40:57: OGRE EXCEPTION(7:InternalErrorException): Could not load dynamic library .\RenderSystem_Direct3D11.  System Error: The specified module could not be found.
+ in DynLib::load at E:\jl\dep_build_64\ogre\OgreMain\src\OgreDynLib.cpp (line 109)
