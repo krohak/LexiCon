@@ -24,7 +24,7 @@ function process(box)
 	box:send_stimulation(1,OVTK_StimulationId_Label_00,t,0)
 	
 	
-	--wait_for(box,30)
+	-- wait_for(box,30)
 
 	--t = box:get_current_time()
 	t = t + 30

@@ -88,6 +88,125 @@
 			</Attributes>
 		</Box>
 		<Box>
+			<Identifier>(0x000003b8, 0x00004f01)</Identifier>
+			<Name>Sign Change Detector</Name>
+			<AlgorithmClassIdentifier>(0x04fa78cd, 0xafe45de7)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x544a003e, 0x6dcba5f6)</TypeIdentifier>
+					<Name>Signal</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Generated stimulations</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Sign switch to positive stimulation</Name>
+					<DefaultValue>OVTK_StimulationId_Label_01</DefaultValue>
+					<Value>OVTK_StimulationId_Label_01</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Sign switch to negative stimulation</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_StimulationId_Label_00</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Channel Index</Name>
+					<DefaultValue>1</DefaultValue>
+					<Value>1</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>1008</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>928</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x13bdcd99, 0x9faeff20)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>3</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x00000433, 0x00002040)</Identifier>
+			<Name>Run Command</Name>
+			<AlgorithmClassIdentifier>(0x48843891, 0x7bfc57f4)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 1</Name>
+					<DefaultValue>OVTK_StimulationId_Label_01</DefaultValue>
+					<Value>OVTK_StimulationId_Label_01</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
+					<Name>Command 1</Name>
+					<DefaultValue></DefaultValue>
+					<Value>"C:/Program Files (x86)/AutoIt3/AutoIt3_x64.exe" C:/Users/ajay/Documents/LexiCon/OpenVibe/OpenViBE-workshop_tie-fighter-demo/press_space.au3</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>1024</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>1088</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xe44a71e7, 0x7964dd76)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x61d11811, 0x71e65362)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
 			<Identifier>(0x00000591, 0x00002831)</Identifier>
 			<Name>Acquisition client</Name>
 			<AlgorithmClassIdentifier>(0x35d225cb, 0x3e6e3a5f)</AlgorithmClassIdentifier>
@@ -318,6 +437,70 @@
 			</Attributes>
 		</Box>
 		<Box>
+			<Identifier>(0x000021ac, 0x0000758d)</Identifier>
+			<Name>Shift Values to Negative</Name>
+			<AlgorithmClassIdentifier>(0x00e26fa1, 0x1dbab1b2)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input - A</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Output</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
+					<Name>Equation</Name>
+					<DefaultValue>x</DefaultValue>
+					<Value>x-1</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>928</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>880</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x21889dc4, 0x1126497e)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xfba64161, 0x65304e21)</Identifier>
+					<Value></Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
 			<Identifier>(0x000025e4, 0x00004988)</Identifier>
 			<Name>Crop</Name>
 			<AlgorithmClassIdentifier>(0x7f1a3002, 0x358117ba)</AlgorithmClassIdentifier>
@@ -345,7 +528,7 @@
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Min crop value</Name>
 					<DefaultValue>-1</DefaultValue>
-					<Value>7.04</Value>
+					<Value>5.07</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -476,7 +659,7 @@
 					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
 					<Name>Equation</Name>
 					<DefaultValue>x</DefaultValue>
-					<Value>x-7.04</Value>
+					<Value>x-5.07</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -541,11 +724,15 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>1072</Value>
+					<Value>1040</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>768</Value>
+					<Value>528</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -623,7 +810,7 @@
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Time Scale</Name>
 					<DefaultValue>10</DefaultValue>
-					<Value>10</Value>
+					<Value>500</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -651,11 +838,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>576</Value>
+					<Value>624</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>752</Value>
+					<Value>688</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -761,11 +948,15 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>880</Value>
+					<Value>800</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>768</Value>
+					<Value>736</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -871,11 +1062,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>1056</Value>
+					<Value>1040</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>544</Value>
+					<Value>768</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1146,7 +1337,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/Openvibe/OpenViBE-workshop_tie-fighter-demo/Crop/use-the-force-self-paced-[$core{date}-$core{time}].ov</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/OpenViBE-workshop_tie-fighter-demo/Crop/use-the-force-self-paced-[$core{date}-$core{time}].ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1160,11 +1351,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>704</Value>
+					<Value>848</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1040</Value>
+					<Value>928</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1207,7 +1398,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/Openvibe/OpenViBE-workshop_tie-fighter-demo/signals/workshop_session_example.ov</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/OpenViBE-workshop_tie-fighter-demo/signals/workshop_session_example.ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -1394,11 +1585,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>496</Value>
+					<Value>624</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>880</Value>
+					<Value>896</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1429,7 +1620,7 @@
 					<TypeIdentifier>(0xb0d0db45, 0x49cbc34a)</TypeIdentifier>
 					<Name>Lua Script</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/Openvibe/OpenViBE-workshop_tie-fighter-demo/stim_Use-the-force_freeTime.lua</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/OpenViBE-workshop_tie-fighter-demo/stim_Use-the-force_freeTime.lua</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1454,11 +1645,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>320</Value>
+					<Value>288</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1024</Value>
+					<Value>1008</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1539,11 +1734,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>368</Value>
+					<Value>416</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1168</Value>
+					<Value>992</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
@@ -1600,6 +1795,17 @@
 			</Target>
 		</Link>
 		<Link>
+			<Identifier>(0x000016b2, 0x000008cd)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000021ac, 0x0000758d)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000003b8, 0x00004f01)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x00001a64, 0x000057f4)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00005cae, 0x00007a5f)</BoxIdentifier>
@@ -1644,10 +1850,21 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00002af9, 0x000016f1)</Identifier>
+			<Identifier>(0x00002561, 0x00006162)</Identifier>
 			<Source>
-				<BoxIdentifier>(0x4fc33f7c, 0x6522dd8d)</BoxIdentifier>
+				<BoxIdentifier>(0x00003c8b, 0x00007c1a)</BoxIdentifier>
 				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000021ac, 0x0000758d)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00002b50, 0x000065da)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00005cae, 0x00007a5f)</BoxIdentifier>
+				<BoxOutputIdentifier>(0x0063f254, 0x5a22c3dd)</BoxOutputIdentifier>
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x60f62501, 0x76a4fec7)</BoxIdentifier>
@@ -1674,6 +1891,28 @@
 			<Target>
 				<BoxIdentifier>(0x00000979, 0x00000cfd)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00002ef9, 0x00001d86)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00005cae, 0x00007a5f)</BoxIdentifier>
+				<BoxOutputIdentifier>(0x0063f254, 0x5a22c3dd)</BoxOutputIdentifier>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00005977, 0x00001ce8)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x000035a4, 0x00001828)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00005cae, 0x00007a5f)</BoxIdentifier>
+				<BoxOutputIdentifier>(0x0063f254, 0x5a22c3dd)</BoxOutputIdentifier>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x03731906, 0x38c07db5)</BoxIdentifier>
+				<BoxInputIndex>2</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
@@ -1732,14 +1971,14 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00004f07, 0x00000ed0)</Identifier>
+			<Identifier>(0x000051e8, 0x0000373c)</Identifier>
 			<Source>
-				<BoxIdentifier>(0x4fc33f7c, 0x6522dd8d)</BoxIdentifier>
+				<BoxIdentifier>(0x000021ac, 0x0000758d)</BoxIdentifier>
 				<BoxOutputIndex>0</BoxOutputIndex>
 			</Source>
 			<Target>
-				<BoxIdentifier>(0x00005cae, 0x00007a5f)</BoxIdentifier>
-				<BoxInputIdentifier>(0x00055818, 0x01dc5aa1)</BoxInputIdentifier>
+				<BoxIdentifier>(0x00005977, 0x00001cea)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
@@ -1772,6 +2011,17 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x00006ebb, 0x00005595)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x000060c9, 0x000004cd)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000003b8, 0x00004f01)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00000433, 0x00002040)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -1820,17 +2070,6 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00006c55, 0x00005a50)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x4fc33f7c, 0x6522dd8d)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x03731906, 0x38c07db5)</BoxIdentifier>
-				<BoxInputIndex>2</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
 			<Identifier>(0x00006da9, 0x000035ec)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00003c8b, 0x00007c1a)</BoxIdentifier>
@@ -1842,14 +2081,14 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00006e38, 0x000020bd)</Identifier>
+			<Identifier>(0x00006f97, 0x0000379d)</Identifier>
 			<Source>
-				<BoxIdentifier>(0x00003c8b, 0x00007c1a)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
+				<BoxIdentifier>(0x11ce18c1, 0x0f8fa196)</BoxIdentifier>
+				<BoxOutputIndex>2</BoxOutputIndex>
 			</Source>
 			<Target>
-				<BoxIdentifier>(0x00005977, 0x00001cea)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
+				<BoxIdentifier>(0x00005cae, 0x00007a5f)</BoxIdentifier>
+				<BoxInputIdentifier>(0x00055818, 0x01dc5aa1)</BoxInputIdentifier>
 			</Target>
 		</Link>
 		<Link>
@@ -1876,11 +2115,11 @@ The &lt;b&gt;Analog Server&lt;/b&gt; provides the feedback value.</Text>
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
-					<Value>1312</Value>
+					<Value>1184</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
-					<Value>928</Value>
+					<Value>624</Value>
 				</Attribute>
 			</Attributes>
 		</Comment>
@@ -1961,11 +2200,11 @@ of the Beta activity during 30sec of inactivity.
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
-					<Value>896</Value>
+					<Value>1264</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
-					<Value>1008</Value>
+					<Value>1024</Value>
 				</Attribute>
 			</Attributes>
 		</Comment>
@@ -1977,11 +2216,11 @@ and &lt;i&gt;100&lt;/i&gt;</Text>
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
-					<Value>896</Value>
+					<Value>1264</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
-					<Value>944</Value>
+					<Value>960</Value>
 				</Attribute>
 			</Attributes>
 		</Comment>
