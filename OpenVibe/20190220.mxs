@@ -910,7 +910,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>/home/krohak/Documents/FYP/LexiCon/Convert/output/converted_OpenBCI-RAW-Right_leg.csv</Value>
+					<Value>C:/Users/sagar/Google Drive/Sagar/HKU Courses/HKU Year 4/FYP/LexiCon/Convert/output/converted_OpenBCI-RAW-Right_leg.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
