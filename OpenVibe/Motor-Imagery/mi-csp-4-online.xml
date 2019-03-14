@@ -210,6 +210,132 @@
 			</Attributes>
 		</Box>
 		<Box>
+			<Identifier>(0x00007f19, 0x00004f2c)</Identifier>
+			<Name>Matrix Display</Name>
+			<AlgorithmClassIdentifier>(0x54f0796d, 0x3ede2cc0)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x544a003e, 0x6dcba5f6)</TypeIdentifier>
+					<Name>Matrix</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x3d3c7c7f, 0xef0e7129)</TypeIdentifier>
+					<Name>Color gradient</Name>
+					<DefaultValue>0:2,36,58; 50:100,100,100; 100:83,17,20</DefaultValue>
+					<Value>0:2,36,58; 50:100,100,100; 100:83,17,20</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Steps</Name>
+					<DefaultValue>100</DefaultValue>
+					<Value>100</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Symetric min/max</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Real time min/max</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>528</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>896</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x4ff49bdb, 0x9dcf6788)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x00007f19, 0x00004f2d)</Identifier>
+			<Name>Matrix Display</Name>
+			<AlgorithmClassIdentifier>(0x54f0796d, 0x3ede2cc0)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x544a003e, 0x6dcba5f6)</TypeIdentifier>
+					<Name>Matrix</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x3d3c7c7f, 0xef0e7129)</TypeIdentifier>
+					<Name>Color gradient</Name>
+					<DefaultValue>0:2,36,58; 50:100,100,100; 100:83,17,20</DefaultValue>
+					<Value>0:2,36,58; 50:100,100,100; 100:83,17,20</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Steps</Name>
+					<DefaultValue>100</DefaultValue>
+					<Value>100</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Symetric min/max</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Real time min/max</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>384</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>944</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x4ff49bdb, 0x9dcf6788)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
 			<Identifier>(0x00c4af19, 0x360e4025)</Identifier>
 			<Name>Signal average</Name>
 			<AlgorithmClassIdentifier>(0x00642c4d, 0x5df7e50a)</AlgorithmClassIdentifier>
@@ -276,7 +402,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>736</Value>
+					<Value>816</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
@@ -669,7 +795,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>752</Value>
+					<Value>784</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1060,6 +1186,17 @@
 	</Boxes>
 	<Links>
 		<Link>
+			<Identifier>(0x0000060a, 0x00001314)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x5e704572, 0x05e86e99)</BoxIdentifier>
+				<BoxOutputIndex>2</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x6e3a7dec, 0x7cf506cf)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x00000c3f, 0x00007882)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00002aaa, 0x000043ec)</BoxIdentifier>
@@ -1067,6 +1204,17 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x661c8098, 0x37ddbba0)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00000e66, 0x00002f2c)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x661c8098, 0x37ddbba0)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x4a392c61, 0x765069ec)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -1079,6 +1227,39 @@
 			<Target>
 				<BoxIdentifier>(0x0000740f, 0x00004439)</BoxIdentifier>
 				<BoxInputIdentifier>(0x003ea50b, 0x8bb79648)</BoxInputIdentifier>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x0000232e, 0x00000e85)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x0000740f, 0x00004439)</BoxIdentifier>
+				<BoxOutputIdentifier>(0x00508f35, 0xf8a8ab30)</BoxOutputIdentifier>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x5e704572, 0x05e86e99)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x000024da, 0x000058a6)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x5a8c1c13, 0x68a2baa7)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00007f19, 0x00004f2d)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00002f03, 0x00003a50)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x14e0f923, 0x0df1c5d6)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x5a8c1c13, 0x68a2baa7)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
@@ -1100,17 +1281,6 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x0000740f, 0x00004439)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x000051d6, 0x00003d9a)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x661c8098, 0x37ddbba0)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x4a392c61, 0x765069ec)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -1170,6 +1340,17 @@
 			</Target>
 		</Link>
 		<Link>
+			<Identifier>(0x00007f75, 0x00007252)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x5e704572, 0x05e86e99)</BoxIdentifier>
+				<BoxOutputIndex>2</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00007f19, 0x00004f2c)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x1ffeda13, 0x64e650ab)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00c4af19, 0x360e4025)</BoxIdentifier>
@@ -1189,17 +1370,6 @@
 			<Target>
 				<BoxIdentifier>(0x00c4af19, 0x360e4025)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x4974c8f6, 0x44a49857)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x5e704572, 0x05e86e99)</BoxIdentifier>
-				<BoxOutputIndex>1</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x6e3a7dec, 0x7cf506cf)</BoxIdentifier>
-				<BoxInputIndex>1</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
@@ -1232,17 +1402,6 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x5e704572, 0x05e86e99)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x7f9a37a2, 0x75d653ba)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x14e0f923, 0x0df1c5d6)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x5a8c1c13, 0x68a2baa7)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -1357,7 +1516,7 @@ scenario is used prior to the feature extraction.</Text>
 		<Entry>
 			<Identifier>(0x0000775c, 0x000078ff)</Identifier>
 			<Type>(0x3bcce5d2, 0x43f2d968)</Type>
-			<Data>[{"boxIdentifier":"(0x6e3a7dec, 0x7cf506cf)","childCount":0,"identifier":"(0x64aa5b42, 0x12135d0a)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"height":505,"identifier":"(0x786b4ac2, 0x1b97fc59)","name":"Default window","parentIdentifier":"(0xffffffff, 0xffffffff)","type":1,"width":603},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"identifier":"(0x6464f9a2, 0x664e4548)","index":0,"name":"Default tab","parentIdentifier":"(0x786b4ac2, 0x1b97fc59)","type":2},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":0,"identifier":"(0x3d476141, 0x6a464a67)","index":0,"name":"Empty","parentIdentifier":"(0x6464f9a2, 0x664e4548)","type":0}]</Data>
+			<Data>[{"boxIdentifier":"(0x00007f19, 0x00004f2c)","childCount":0,"identifier":"(0x00001962, 0x000040ac)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0x00007f19, 0x00004f2d)","childCount":0,"identifier":"(0x00006d20, 0x0000760e)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0x6e3a7dec, 0x7cf506cf)","childCount":0,"identifier":"(0x64aa5b42, 0x12135d0a)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"height":505,"identifier":"(0x786b4ac2, 0x1b97fc59)","name":"Default window","parentIdentifier":"(0xffffffff, 0xffffffff)","type":1,"width":603},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"identifier":"(0x6464f9a2, 0x664e4548)","index":0,"name":"Default tab","parentIdentifier":"(0x786b4ac2, 0x1b97fc59)","type":2},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":0,"identifier":"(0x3d476141, 0x6a464a67)","index":0,"name":"Empty","parentIdentifier":"(0x6464f9a2, 0x664e4548)","type":0}]</Data>
 		</Entry>
 	</Metadata>
 	<Attributes>
