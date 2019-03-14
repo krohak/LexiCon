@@ -443,11 +443,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>496</Value>
+					<Value>544</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>272</Value>
+					<Value>208</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -624,6 +624,11 @@
 					<TypeIdentifier>(0x544a003e, 0x6dcba5f6)</TypeIdentifier>
 					<Name>Input stream 1</Name>
 				</Input>
+				<Input>
+					<Identifier>(0x000466c4, 0x07a39c07)</Identifier>
+					<TypeIdentifier>(0x544a003e, 0x6dcba5f6)</TypeIdentifier>
+					<Name>Input stream 2</Name>
+				</Input>
 			</Inputs>
 			<Outputs>
 				<Output>
@@ -634,11 +639,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>416</Value>
+					<Value>448</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>304</Value>
+					<Value>256</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1040,6 +1045,10 @@
 					<Value>544</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
 					<Value>(0xee4b6d30, 0x788aed29)</Value>
 				</Attribute>
@@ -1114,6 +1123,17 @@
 			<Target>
 				<BoxIdentifier>(0x00001011, 0x000029a5)</BoxIdentifier>
 				<BoxInputIndex>1</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00000886, 0x000018e6)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00c4af19, 0x360e4025)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000047f9, 0x00000195)</BoxIdentifier>
+				<BoxInputIdentifier>(0x000466c4, 0x07a39c07)</BoxInputIdentifier>
 			</Target>
 		</Link>
 		<Link>
