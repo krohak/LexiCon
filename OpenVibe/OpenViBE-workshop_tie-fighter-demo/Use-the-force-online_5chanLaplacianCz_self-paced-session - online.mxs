@@ -27,7 +27,7 @@
 					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
 					<Name>Spatial Filter Coefficients</Name>
 					<DefaultValue>1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1</DefaultValue>
-					<Value>-1;-1;4;-1;-1</Value>
+					<Value>-1;-1;4;-1;-1;4;4</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -41,7 +41,7 @@
 					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
 					<Name>Number of Input Channels</Name>
 					<DefaultValue>4</DefaultValue>
-					<Value>5</Value>
+					<Value>7</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -273,7 +273,7 @@
 		</Box>
 		<Box>
 			<Identifier>(0x00000979, 0x00000cfd)</Identifier>
-			<Name>1:5</Name>
+			<Name>4;12;2;13;6;1;3</Name>
 			<AlgorithmClassIdentifier>(0x361722e8, 0x311574e8)</AlgorithmClassIdentifier>
 			<Inputs>
 				<Input>
@@ -292,7 +292,7 @@
 					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
 					<Name>Channel List</Name>
 					<DefaultValue>:</DefaultValue>
-					<Value>1:5</Value>
+					<Value>4;12;2;13;6;1;3</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -453,7 +453,7 @@
 					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
 					<Name>Equation</Name>
 					<DefaultValue>x</DefaultValue>
-					<Value>x-1</Value>
+					<Value>x-3</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -524,14 +524,14 @@
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Min crop value</Name>
 					<DefaultValue>-1</DefaultValue>
-					<Value>2.43</Value>
+					<Value>250.91</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Max crop value</Name>
 					<DefaultValue>1</DefaultValue>
-					<Value>100</Value>
+					<Value>300</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -655,7 +655,7 @@
 					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
 					<Name>Equation</Name>
 					<DefaultValue>x</DefaultValue>
-					<Value>x-2.43</Value>
+					<Value>x-250.91</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -1582,6 +1582,10 @@
 					<Value>1008</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
 					<Value>(0xd6e3f48b, 0xbee3523a)</Value>
 				</Attribute>
@@ -1831,17 +1835,6 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00003252, 0x000037b9)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x4fc33f7c, 0x6522dd8d)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00005cae, 0x00007a5f)</BoxIdentifier>
-				<BoxInputIdentifier>(0x00055818, 0x01dc5aa1)</BoxInputIdentifier>
-			</Target>
-		</Link>
-		<Link>
 			<Identifier>(0x000035a4, 0x00001828)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00005cae, 0x00007a5f)</BoxIdentifier>
@@ -1883,6 +1876,17 @@
 			<Target>
 				<BoxIdentifier>(0x468a8a55, 0x79538acc)</BoxIdentifier>
 				<BoxInputIndex>4</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00003e64, 0x00007a72)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00000591, 0x00002831)</BoxIdentifier>
+				<BoxOutputIndex>2</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00005cae, 0x00007a5f)</BoxIdentifier>
+				<BoxInputIdentifier>(0x00055818, 0x01dc5aa1)</BoxInputIdentifier>
 			</Target>
 		</Link>
 		<Link>
@@ -2036,11 +2040,25 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
-					<Value>384</Value>
+					<Value>288</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
-					<Value>480</Value>
+					<Value>368</Value>
+				</Attribute>
+			</Attributes>
+		</Comment>
+		<Comment>
+			<Identifier>(0x00007d48, 0x000040e1)</Identifier>
+			<Text>2;5;1;4;3</Text>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
+					<Value>288</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
+					<Value>432</Value>
 				</Attribute>
 			</Attributes>
 		</Comment>
