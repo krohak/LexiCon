@@ -648,7 +648,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-15-2-motor-imagery-csp-4-online-alpha-beta-[2019.03.15-23.58.42].ov</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-19-1-motor-imagery-csp-4-online-alpha-beta-[2019.03.19-09.11.14].ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -879,7 +879,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x8d21ff41, 0xdf6afe7e)</Identifier>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-15-csp-spatial-filter-alpha.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-19-2-csp-spatial-filter-alpha.cfg</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
@@ -968,7 +968,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x8d21ff41, 0xdf6afe7e)</Identifier>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-15-csp-spatial-filter-beta.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-19-2-csp-spatial-filter-beta.cfg</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
@@ -1717,7 +1717,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename to load configuration from</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/2-Classifier Trainer/trial-2019-03-15-1-motor-imagery-bci-config-classifier-alpha-beta.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/2-Classifier Trainer/trial-2019-03-19-2-motor-imagery-bci-config-classifier-alpha-beta.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>

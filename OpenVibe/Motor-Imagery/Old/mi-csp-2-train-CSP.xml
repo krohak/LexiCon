@@ -262,7 +262,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Spatial filter configuration</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/csp-spatial-filter-old.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/2019-03-19-csp-spatial-filter-old.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -400,7 +400,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-15-1.ov</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-19-2.ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>

@@ -756,7 +756,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x8d21ff41, 0xdf6afe7e)</Identifier>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/csp-spatial-filter-old.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/2019-03-19-csp-spatial-filter-old.cfg</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
@@ -1306,7 +1306,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename to load configuration from</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/motor-imagery-bci-config-old.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/2019-03-19-motor-imagery-bci-config-old.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>

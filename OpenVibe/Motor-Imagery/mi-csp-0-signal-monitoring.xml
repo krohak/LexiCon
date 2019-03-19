@@ -583,11 +583,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>208</Value>
+					<Value>192</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>352</Value>
+					<Value>384</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
@@ -791,7 +791,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-13-3-2019-2-no-blue.ov</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-19-3.ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -811,10 +811,6 @@
 				<Attribute>
 					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
 					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
-					<Value>1</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -949,6 +945,10 @@
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
 					<Value>464</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1194,28 +1194,6 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00001539, 0x00004df1)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x00c4af19, 0x360e4025)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00004821, 0x00006e17)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00001a6e, 0x0000678f)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x00005792, 0x00005c0d)</BoxIdentifier>
-				<BoxOutputIndex>1</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00002aaa, 0x000043ee)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
 			<Identifier>(0x000021bd, 0x00003b70)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00002aaa, 0x000043ee)</BoxIdentifier>
@@ -1337,6 +1315,17 @@
 			</Target>
 		</Link>
 		<Link>
+			<Identifier>(0x00005c9d, 0x00001e07)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00002aaa, 0x000043ee)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00004821, 0x00006e17)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x00005eec, 0x00005d09)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00006732, 0x00007630)</BoxIdentifier>
@@ -1344,6 +1333,17 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x00c4af19, 0x360e4025)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x0000679d, 0x00007a5a)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000055dc, 0x0000109e)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00002aaa, 0x000043ee)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>

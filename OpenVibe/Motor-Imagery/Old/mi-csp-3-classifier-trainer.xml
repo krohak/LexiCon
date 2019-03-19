@@ -507,7 +507,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x8d21ff41, 0xdf6afe7e)</Identifier>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/csp-spatial-filter-old.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/2019-03-19-csp-spatial-filter-old.cfg</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -623,7 +623,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename to save configuration to</Name>
 					<DefaultValue>${Path_UserData}/my-classifier.xml</DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/motor-imagery-bci-config-old.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Old/2019-03-19-motor-imagery-bci-config-old.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1019,7 +1019,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-15-1.ov</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-19-2.ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>

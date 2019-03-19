@@ -284,6 +284,10 @@
 					<Value>992</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
 					<Value>(0x4ff49bdb, 0x9dcf6788)</Value>
 				</Attribute>
@@ -345,6 +349,10 @@
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
 					<Value>1360</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x341d3912, 0x1478de86)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -569,7 +577,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x8d21ff41, 0xdf6afe7e)</Identifier>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-15-csp-spatial-filter-alpha.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-19-3-csp-spatial-filter-alpha.cfg</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -654,7 +662,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x8d21ff41, 0xdf6afe7e)</Identifier>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-15-csp-spatial-filter-beta.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-19-3-csp-spatial-filter-beta.cfg</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
@@ -834,7 +842,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename to save configuration to</Name>
 					<DefaultValue>${Path_UserData}/my-classifier.xml</DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/2-Classifier Trainer/trial-2019-03-15-1-motor-imagery-bci-config-classifier-alpha-beta.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/2-Classifier Trainer/trial-2019-03-19-3-motor-imagery-bci-config-classifier-alpha-beta.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1393,7 +1401,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-15-1.ov</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-19-3.ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
