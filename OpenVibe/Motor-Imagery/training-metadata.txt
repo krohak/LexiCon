@@ -1,0 +1,41 @@
+4-8,8-12,12-16,16-20 with trial1-15
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Received train stimulation. Data dim is [2160x24]
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> For information, we have 1080 feature vector(s) for input 1
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> For information, we have 1080 feature vector(s) for input 2
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> k-fold test could take quite a long time, be patient
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 1 / 5 (performance : 84.0278%)
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 2 / 5 (performance : 83.3333%)
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 3 / 5 (performance : 95.1389%)
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 4 / 5 (performance : 82.6389%)
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 5 / 5 (performance : 82.6389%)
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Cross-validation test accuracy is 85.5556% (sigma = 4.81926%)
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Cls vs cls      1     2
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Target  1:   85.8  14.2 %, 1080 examples
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Target  2:   14.7  85.3 %, 1080 examples
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Training set accuracy is 92.6389% (optimistic)
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Cls vs cls      1     2
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Target  1:   92.4   7.6 %, 1080 examples
+[ INF ] At time 430.086 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Target  2:    7.1  92.9 %, 1080 examples
+[ WARNING ] <Player::can not reach realtime> 4 second(s) late...
+
+
+
+4-8,8-12,12-16,16-20,20-38 with trial1-23
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Received train stimulation. Data dim is [2160x30]
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> For information, we have 1080 feature vector(s) for input 1
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> For information, we have 1080 feature vector(s) for input 2
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> k-fold test could take quite a long time, be patient
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 1 / 5 (performance : 84.4907%)
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 2 / 5 (performance : 95.1389%)
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 3 / 5 (performance : 85.4167%)
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 4 / 5 (performance : 77.5463%)
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Finished with partition 5 / 5 (performance : 76.1574%)
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Cross-validation test accuracy is 83.75% (sigma = 6.77003%)
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Cls vs cls      1     2
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Target  1:   81.1  18.9 %, 1080 examples
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Target  2:   13.6  86.4 %, 1080 examples
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer> Training set accuracy is 93.75% (optimistic)
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Cls vs cls      1     2
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Target  1:   92.7   7.3 %, 1080 examples
+[ INF ] At time 470.273 sec <Box algorithm::(0x0a5a6a4a, 0x1d92a778) aka Classifier trainer>   Target  2:    5.2  94.8 %, 1080 examples
+[ WARNING ] <Player::can not reach realtime> 7 second(s) late...
