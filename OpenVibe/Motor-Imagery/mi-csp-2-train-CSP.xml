@@ -222,7 +222,7 @@
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Low cut frequency (Hz)</Name>
 					<DefaultValue>29</DefaultValue>
-					<Value>30</Value>
+					<Value>25</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -403,7 +403,7 @@
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>High cut frequency (Hz)</Name>
 					<DefaultValue>40</DefaultValue>
-					<Value>30</Value>
+					<Value>25</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -483,14 +483,14 @@
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Low cut frequency (Hz)</Name>
 					<DefaultValue>29</DefaultValue>
-					<Value>20</Value>
+					<Value>4</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>High cut frequency (Hz)</Name>
 					<DefaultValue>40</DefaultValue>
-					<Value>25</Value>
+					<Value>8</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1047,7 +1047,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Spatial filter configuration</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/sagar/Google Drive/Sagar/HKU Courses/HKU Year 4/FYP/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-27-1-csp-spatial-filter-8-12Hz.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/1-Fingers/8-12Hz.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1128,7 +1128,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Spatial filter configuration</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/sagar/Google Drive/Sagar/HKU Courses/HKU Year 4/FYP/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-27-1-csp-spatial-filter-12-16Hz.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/1-Fingers/12-16Hz.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1209,7 +1209,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Spatial filter configuration</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/sagar/Google Drive/Sagar/HKU Courses/HKU Year 4/FYP/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-27-1-csp-spatial-filter-4-8Hz.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/1-Fingers/25-38Hz.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1290,7 +1290,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Spatial filter configuration</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/sagar/Google Drive/Sagar/HKU Courses/HKU Year 4/FYP/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-27-1-csp-spatial-filter-16-20Hz.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/1-Fingers/16-20Hz.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1371,7 +1371,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Spatial filter configuration</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/sagar/Google Drive/Sagar/HKU Courses/HKU Year 4/FYP/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-27-1-csp-spatial-filter-20-38Hz.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/1-Fingers/20-25Hz.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1452,7 +1452,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Spatial filter configuration</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/sagar/Google Drive/Sagar/HKU Courses/HKU Year 4/FYP/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/trial-2019-03-27-1-csp-spatial-filter-20-25Hz.cfg</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/1-CSP Filter Trainer/1-Fingers/4-8Hz.cfg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1940,7 +1940,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/sagar/Google Drive/Sagar/HKU Courses/HKU Year 4/FYP/LexiCon/OpenVibe/Motor-Imagery/Data/trial-2019-03-27-1.ov</Value>
+					<Value>C:/Users/ajay/Documents/LexiCon/OpenVibe/Motor-Imagery/Data/1-Fingers/trial-2019-03-23-2.ov</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -2884,52 +2884,7 @@
 			</Target>
 		</Link>
 	</Links>
-	<Comments>
-		<Comment>
-			<Identifier>(0x000008e3, 0x00002907)</Identifier>
-			<Text>&lt;b&gt;--::&lt;/b&gt; Remember to &lt;b&gt;change the file&lt;/b&gt;
-to the one you recorded before!</Text>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
-					<Value>256</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
-					<Value>112</Value>
-				</Attribute>
-			</Attributes>
-		</Comment>
-		<Comment>
-			<Identifier>(0x00003594, 0x000016a6)</Identifier>
-			<Text>&lt;u&gt;&lt;b&gt;&lt;big&gt;Overview&lt;/big&gt;&lt;/b&gt;&lt;/u&gt;
-
-This scenario trains the &lt;i&gt;Common Spatial Pattern&lt;/i&gt; spatial filter
-that will be used in the further steps.
-
-The EEG signal is filtered in a large frequency band [8-30 Hz].
-
-Then the &lt;i&gt;Stimulation based epoching&lt;/i&gt; boxes
-provide examples for the &lt;i&gt;CSP Spatial Filter Trainer&lt;/i&gt; : 
-class 1: LEFT trials
-class 2: RIGHT trials
-
-At the end of the training process,
-the CSP trainer outputs the stimulation
-&lt;b&gt;OVTK_StimulationId_TrainCompleted&lt;/b&gt; on success,
-telling the &lt;i&gt;Player Controller&lt;/i&gt; to pause the scenario.</Text>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
-					<Value>240</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
-					<Value>-160</Value>
-				</Attribute>
-			</Attributes>
-		</Comment>
-	</Comments>
+	<Comments></Comments>
 	<Metadata>
 		<Entry>
 			<Identifier>(0x0000775c, 0x000078ff)</Identifier>
