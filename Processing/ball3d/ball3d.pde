@@ -1,3 +1,10 @@
+import oscP5.*;
+import netP5.*;
+
+//OSC Controller
+OscP5 oscP5;
+NetAddress myRemoteLocation;
+
 Ball ball; // the Ball
 Opponent opponent; // the Opponent
 
@@ -27,9 +34,15 @@ int difficulty = 1;
 
 PFont font; // font 
 
+/* Ball position */
+public float paddlePosition = 0;
+
 void setup () { 
   size(1280, 960, P3D);
 
+  //OSC Listen for messages
+  oscP5 = new OscP5(this, 9001);
+  myRemoteLocation = new NetAddress("127.0.0.1", 9001);
   
   // initialize the ball and opponent
   ball = new Ball(fix_Y);
@@ -93,7 +106,8 @@ void drawPaddle () {
   fill(255, 255 - 9*(frameCount - playerFade)); 
   
   // draw the paddle. The constraints keep the paddle within the stage
-  rect(constrain(mouseX - width/2 - width/10, -width/2 *0.9, width/2 *0.9 - width/5),
+//  rect(constrain(mouseX - width/2 - width/10, -width/2 *0.9, width/2 *0.9 - width/5), //@Changed
+rect(constrain(paddlePosition - width/2 - width/10, -width/2 *0.9, width/2 *0.9 - width/5),
        fix_Y, 
        width/5, height/5);
 }
@@ -110,4 +124,17 @@ void mousePressed() {
   if(stopped) { // make sure the game hasn't started already
     stopped = false; // tell all the other functions that the game's started
   }
+}
+
+void oscEvent(OscMessage theOscMessage) {
+
+int stimulationValue = theOscMessage.get(0).intValue(); //get value of stimulation
+
+ if(stimulationValue == 769 && (paddlePosition-5) > -width/2.0 - width/10){ //Left
+   paddlePosition -= 5;
+ }
+ else if(stimulationValue == 770 && (paddlePosition+5) < width/2.0){ //Right
+  paddlePosition += 5;
+ }
+  println(paddlePosition);
 }
