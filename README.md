@@ -48,5 +48,8 @@ Figure shows the Alpha and Beta band separated version of the architecture shown
 
 Figure shows the the Alpha and Beta band separated version of the architecture shown in previous figure. The two CSP filters are used to obtain features which are then separated on the basis of the left and right trails. A single classifier is then trained after the left and the right features are aggregated from both the CSP spatial filters.
 
+# Experiments in Python
+https://github.com/krohak/LexiCon/tree/master/Experiments
+
 # Webiste
 https://i.cs.hku.hk/fyp/2018/fyp18069/
